@@ -1,0 +1,25 @@
+{
+  "name": "vroom3d-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/multipart": "^10.0.0",
+    "@fastify/postgres": "^6.0.2",
+    "axios": "^1.16.1",
+    "csv-parse": "^6.2.1",
+    "fastify": "^5.8.5",
+    "fastify-raw-body": "^5.0.0",
+    "pg": "^8.21.0",
+    "sharp": "^0.34.5",
+    "stripe": "^22.2.0",
+    "uuid": "^14.0.0"
+  }
+}
